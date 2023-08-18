@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+#contenedor{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 22%;
+    margin: 10px 40%;
+}
+
+#resultado{
+    width: 200px;
+    margin: 5px 30%;
+}
+
+#dia:out-of-range{
+    background-color: red;
+}
+
+#mes:out-of-range{
+    background-color: red;
+}
+h1 {
+    color: white;
+}
